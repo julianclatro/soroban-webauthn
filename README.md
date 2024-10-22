@@ -5,7 +5,7 @@
 
 This repo contains [Soroban] contracts that demonstrate account abstraction on [Stellar], by supporting [Webauthn].
 
-####Build and Deploy:
+#### Build and Deploy:
 
 ```
 cd web-app-demo && deno run --allow-net --allow-read https://deno.land/std/http/file_server.ts
@@ -27,20 +27,20 @@ stellar contract install --wasm out/webauthn_account_ed25519.optimized.wasm
 stellar contract install --wasm out/webauthn_account_secp256r1.optimized.wasm
 ```
 
-####Run the frontend:
+#### Run the frontend:
 
 ```
 cd webauthn-worker
 wrangler dev
 ```
 
-####Contracts:
+#### Contracts:
 
 - `contract-webauthn-factory` – A Soroban factory contract that deploys and initializes new deployments of webauthn contract accounts.
 - `contract-webauthn-ed25519` – A Soroban account contract that is initialized with a ed25519 public key for a Webauthn device (passkey from a browser, computer, phone, Yubikey, etc). This contract acts as an account on network, holding assets, etc, and is controlled by the Webauthn device's signatures.
 - `contract-webauthn-secp256r1` – A Soroban account contract that is initialized with a ecdsa secp256r1 public key for a Webauthn device (passkey from a browser, computer, phone, Yubikey, etc). This contract acts as an account on network, holding assets, etc, and is controlled by the Webauthn device's signatures.
 
-####Frontend:
+#### Frontend:
 
 - `webauth-worker` – A demo web application. The demo interacts with the Stellar Test Network. The demo registers a device for webauthn, deploys an account contract for the device, and performs some transactions with it.
 

@@ -1,0 +1,13 @@
+name = "webauthn-worker"
+main = "src/index.js"
+compatibility_date = "2023-10-01"
+workers_dev = true                    # Set to true if deploying to *.workers.dev subdomain
+[site]
+bucket = "./public"
+
+# Uncomment this if you have a Cloudflare account with Workers Bundled
+# account_id = "your-cloudflare-account-id"
+# zone_id = "your-cloudflare-zone-id"
+
+# By default, the worker will be deployed to *.workers.dev subdomain
+

@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "lib": ["dom", "dom.iterable", "deno.ns"]
+    },
+    "tasks": {
+      "start": "deno run --allow-net --allow-read"
+    }
+  }

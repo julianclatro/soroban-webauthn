@@ -1,0 +1,40 @@
+ReactDOM.render(<Ui
+  // Local
+  // networkPassphrase="Standalone Network ; February 2017"
+  // nativeContractId="CDMLFMKMMD7MWZP3FKUBZPVHTUEDLSX4BYGYKH4GCESXYHS3IHQ4EIG4"
+  // factoryContractWasm="c2695d0624e5fd9141c3bbab5af7b059edeaf2beb6353e085d2aed12285825eb"
+  // factoryContractId="CBKNDSRU4RTXOJKI4AQOUZUCN65U6MQQH5O3YCAPUCLR7L2I2C6KNBE4"
+  // accountEd25519ContractWasm="3ab57df259ccb97a43c5085909b3ba5c01db1b5618c58c7e2623ac5394b8105e"
+  // accountSecp256r1ContractWasm="6d88ea7bdaa83a01ad48852c18f36a3b77437030de4bf8ea58cb8f686ccc4593"
+  // friendbotUrl="http://localhost:8000/friendbot"
+  // horizonUrl="http://localhost:8000"
+  // explorerContractBaseUrl=""
+  // explorerAccountBaseUrl="http://localhost:8000/accounts"
+  // explorerTxBaseUrl="http://localhost:8000/transactions"
+
+  // Futurenet
+  // networkPassphrase="Test SDF Future Network ; October 2022"
+  // nativeContractId="CB64D3G7SM2RTH6JSGG34DDTFTQ5CFDKVDZJZSODMCX4NJ2HV2KN7OHT"
+  // factoryContractWasm="80b09a06099828ac4b996a53f5e658e2f7aa8f4dd89c63c58b65f5924fc04edf"
+  // factoryContractId="CA7WGW3GHF7HZ5VK2L6MB4AEV2NTADBC6JAKGCPFSEUNHOAP4PFTLS7Z"
+  // accountEd25519ContractWasm="b265adc2f8dd1a2e0d824a5ba64197bd0b5aeefbf02b8fd3000d87dfca1e9253"
+  // accountSecp256r1ContractWasm="9388be06af6a625009ac5d37afd59cc9e24136354199d1030e6ddd39880332cc"
+  // friendbotUrl="https://friendbot-futurenet.stellar.org"
+  // horizonUrl="https://horizon-futurenet.stellar.org"
+  // explorerContractBaseUrl=""
+  // explorerAccountBaseUrl="https://horizon-futurenet.stellar.org/accounts"
+  // explorerTxBaseUrl="https://horizon-futurenet.stellar.org/transactions"
+
+  // Testnet:
+  networkPassphrase="Test SDF Network ; September 2015"
+  nativeContractId="CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC"
+  factoryContractWasm="8e4b75ff2837444c31d42edba0a0978076c62f6c825eeb2a6acdc915fa586e69"
+  factoryContractId="CDH4DQRN72DTVN2KM2EKHWEEVATV6U7IWR2KS4QJQPYTEWSCY4GOKQTZ"
+  accountEd25519ContractWasm="7fb9b975679cceb791e9357bdc5409fccf641d87d21ba075364dd4544bfa10e3"
+  accountSecp256r1ContractWasm="9abc34e4a464736a1e075e7e282f898a8e66f89171d11807a04b75ea4ade3c77"
+  friendbotUrl="https://friendbot.stellar.org"
+  horizonUrl="https://horizon-testnet.stellar.org"
+  explorerContractUrl="https://testnet.steexp.com/contract"
+  explorerAccountUrl="https://testnet.steexp.com/account"
+  explorerTxUrl="https://testnet.steexp.com/tx"
+/>, document.getElementById("ui"));

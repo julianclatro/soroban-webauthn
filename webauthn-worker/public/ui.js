@@ -27,6 +27,12 @@ class Ui extends React.Component {
         this.onLog("❌ Webauthn support not available")
       }
     }
+    if (window.PublicKeyCredential && navigator.credentials && navigator.credentials.create) {
+      // Proceed with WebAuthn functionality
+    } else {
+      // Fallback logic or user notification
+      alert('Web Authentication API is not supported in this browser.');
+    }
   }
 
   onLog(l) {
@@ -53,6 +59,7 @@ class Ui extends React.Component {
     });
   }
 
+  
   render() {
       return (
         <div>
